@@ -1,0 +1,34 @@
+cfgh dfhsdfh hfgfdhsd 
+
+dfshsdfhdfhsdfjhsdf
+df
+hsd
+h
+sdfh
+
+try: 
+            time.sleep(4)
+            jsclick1 = '''document.querySelectorAll('span[class="v-btn__content"]')[5].click()'''
+            browser.execute_script(jsclick1)
+            
+            
+            time.sleep(3)
+        except:
+            pass
+            
+        try:
+            
+            jsclick = '''document.querySelectorAll('span[class="v-btn__content"]')[6].click()'''
+            browser.execute_script(jsclick)
+            
+            
+            time.sleep(5)
+        except:
+           pass        
+        
+        browser.get("https://dashboard.4everland.org/task-hub")
+        try:
+            time.sleep(2)
+            jsclick = '''document.querySelectorAll('span[class="v-btn__content"]')[5].click()'''
+            browser.execute_script(jsclick)
+            
